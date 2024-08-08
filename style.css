@@ -1,0 +1,113 @@
+body{
+    font-family: Ubuntu, sans-serif;
+}
+.containor{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2c2e31;
+}
+.containor h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.p2{
+    font-size: 20px;
+}
+a{
+    color: skyblue;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: #222;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li{
+    list-style: none;
+    transition: 0.4s;
+    padding: 0px 0px 5px;
+}
+.nav ul li span{
+    text-align: center;
+    padding: 10px 0px 0px;
+    display: block;
+}
+.nav ul li:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.random{
+    height: 450px;
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 360px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+.random-details{
+    height: 100px;
+    width: 100%;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.random-info{
+    height: 88px;
+    width: 100%;
+    align-items: center;
+}
+.random-info i{
+    color: rgba(128, 128, 128, 0.503);
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px;
+    transition: 0.2s;
+}
+
+
+.random-info i:hover{
+    transform: translateY(-10px);
+}
+
+.lern{
+    height: 250px;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 360px;
+    margin-bottom: 150px;
+    box-shadow: 0px 0px 5px  gray;
+    border-radius: 5px;
+    text-align: center;
+    color: gray;
+}
+.lern p strong{
+    font-weight: bolder;
+}
+.lern .p1{
+    color: black;
+    font-size: 24px;   
+    font-weight: 100; 
+}
+.lern button{
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background: greenyellow;
+}
